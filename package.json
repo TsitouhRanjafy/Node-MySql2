@@ -1,0 +1,20 @@
+{
+  "name": "mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec ts-node ./src/serveur.ts"
+  },
+  "author": "Tsitohaina",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@types/node": "^22.7.5",
+    "mysql2": "^3.11.3",
+    "typescript": "^5.6.2"
+  }
+}
